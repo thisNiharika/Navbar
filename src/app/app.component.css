@@ -1,0 +1,63 @@
+.nav{
+    background-color:#F5F5F5 ;
+    justify-content: space-evenly;
+    
+}
+
+.nav-link{
+color: #7d7d7d;
+height: 50px;
+/* border-top-right-radius: 62px 33px ;
+border-bottom-right-radius: 100px 33px ;
+border-right-color: black; */
+cursor: pointer;
+margin-left: 30px;
+}
+
+
+.activebtn {
+    position: relative;
+  }
+  
+  
+  .activebtn::after {
+    content: ' ';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: blue;
+  }
+
+ 
+
+   ul li:first-child::before {
+    content: ' ';
+} 
+  ul li::before {
+    content: url('src/app/Image/seprator.png');
+    position: absolute;
+    transform: scale(.58);
+    transform-origin: top;
+    margin-left: -12px;
+} 
+li{ list-style: none;  position: relative;}
+ 
+
+/* ul li:last-child{ margin-left: 5px;} 
+
+
+ul li::before {
+  content: 'and';
+   width: 15px;
+  height: 15px;
+  margin-right: 5px;
+  position: absolute;
+  
+} */
+
+
+ 
+
+
+
